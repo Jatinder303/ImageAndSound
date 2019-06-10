@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.IO;
 using System.Reflection;
-using System.Media;
+using System.Windows.Forms;
 
 namespace ImageAndSound
 {
@@ -66,7 +59,6 @@ namespace ImageAndSound
             //5. Then click on "Add Resource", choose audio files (.wav) and click "Open".
             //6. Select audio file(s) and change "Persistence" properties to "Embedded in .resx".
             //7. write below mentioned code
-
 
             System.Media.SoundPlayer snd = new System.Media.SoundPlayer(ImageAndSound.Properties.Resources.gun);
             snd.Play();
