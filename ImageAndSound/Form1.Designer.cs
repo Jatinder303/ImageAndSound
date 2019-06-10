@@ -31,6 +31,7 @@
             this.PicBox_Main = new System.Windows.Forms.PictureBox();
             this.Btn_First = new System.Windows.Forms.Button();
             this.Btn_Second = new System.Windows.Forms.Button();
+            this.btn_sound = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PicBox_Main)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,11 +63,22 @@
             this.Btn_Second.UseVisualStyleBackColor = true;
             this.Btn_Second.Click += new System.EventHandler(this.Btn_Second_Click);
             // 
+            // btn_sound
+            // 
+            this.btn_sound.Location = new System.Drawing.Point(335, 304);
+            this.btn_sound.Name = "btn_sound";
+            this.btn_sound.Size = new System.Drawing.Size(75, 23);
+            this.btn_sound.TabIndex = 3;
+            this.btn_sound.Text = "sound";
+            this.btn_sound.UseVisualStyleBackColor = true;
+            this.btn_sound.Click += new System.EventHandler(this.Btn_sound_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_sound);
             this.Controls.Add(this.Btn_Second);
             this.Controls.Add(this.Btn_First);
             this.Controls.Add(this.PicBox_Main);
@@ -83,6 +95,7 @@
         private System.Windows.Forms.PictureBox PicBox_Main;
         private System.Windows.Forms.Button Btn_First;
         private System.Windows.Forms.Button Btn_Second;
+        private System.Windows.Forms.Button btn_sound;
     }
 }
 

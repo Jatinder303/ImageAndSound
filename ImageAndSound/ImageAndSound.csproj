@@ -91,5 +91,11 @@
     <EmbeddedResource Include="Resources\football.jpg" />
     <EmbeddedResource Include="Resources\sports.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\spinnn.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\spin.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

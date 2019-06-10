@@ -63,5 +63,16 @@ namespace ImageAndSound
             System.Media.SoundPlayer snd = new System.Media.SoundPlayer(ImageAndSound.Properties.Resources.gun);
             snd.Play();
         }
+
+        private void Btn_sound_Click(object sender, EventArgs e)
+        {
+            Assembly myAssembly = Assembly.GetExecutingAssembly();
+            Stream myStream = myAssembly.GetManifestResourceStream("ImageAndSound.Resources.spin.jpg");
+            Bitmap bmp = new Bitmap(myStream);
+            PicBox_Main.Image = bmp;
+
+            System.Media.SoundPlayer snd = new System.Media.SoundPlayer(ImageAndSound.Properties.Resources.spinnn);
+            snd.Play();
+        }
     }
 }
